@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html ng-app="NoteWrangler">
 <html>
 <head>
 	<title>Note Wrangler</title>
@@ -7,6 +7,8 @@
 </head>
 <body>
 	<h1>Hello World</h1>
+	<!-- Where the routes show -->
+	<div ng-view></div>
 </body>
 	<!-- Vendor -->
 	<script type="text/javascript" src="assets/javascript/vendor/jquery-2.2.3.min.js"></script>
@@ -15,7 +17,8 @@
 	<script type="text/javascript" src="assets/javascript/vendor/angular-resource.js"></script>
 
 	<!-- App -->
-
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script type="text/javascript" src="assets/javascript/routes.js"></script>
 	<!-- Directives -->
 	<!-- Controllers -->
 	<!-- Services -->
