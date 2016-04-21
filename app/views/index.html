@@ -1,25 +1,29 @@
-<!DOCTYPE html ng-app="NoteWrangler">
-<html>
+<!DOCTYPE html>
+<html ng-app="NoteWrangler">
 <head>
 	<title>Note Wrangler</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css"></link>
 	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap-theme.css"></link>
 </head>
 <body>
-	<h1>Hello World</h1>
+	<h1>Note Wrangler</h1>
 	<!-- Where the routes show -->
 	<div ng-view></div>
 </body>
 	<!-- Vendor -->
-	<script type="text/javascript" src="assets/javascript/vendor/jquery-2.2.3.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/vendor/angular.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/vendor/angular-route.js"></script>
-	<script type="text/javascript" src="assets/javascript/vendor/angular-resource.js"></script>
+	<script src="assets/javascript/vendor/jquery-2.2.3.min.js"></script>
+	<script src="assets/javascript/vendor/angular.min.js"></script>
+	<script src="assets/javascript/vendor/angular-route.js"></script>
+	<script src="assets/javascript/vendor/angular-resource.js"></script>
 
 	<!-- App -->
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
-	<script type="text/javascript" src="assets/javascript/routes.js"></script>
+	<script src="assets/javascript/app.js"></script>
+	<script src="assets/javascript/routes.js"></script>
 	<!-- Directives -->
 	<!-- Controllers -->
+	<script src="assets/javascript/controllers/noteIndexController.js"></script>
+	<script src="assets/javascript/controllers/noteShowController.js"></script>
+	<script src="assets/javascript/controllers/noteEditController.js"></script>
+	<script src="assets/javascript/controllers/noteCreateController.js"></script>
 	<!-- Services -->
 </html>
