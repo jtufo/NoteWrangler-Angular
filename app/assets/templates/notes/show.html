@@ -4,3 +4,6 @@
 </div>
 <p>{{note.content}}</p>
 <p><span class="label-info">{{note.category.name}}</span></p>
+<a ng-href="#/notes/{{note.id}}/edit" class="btn btn-default">Edit Note</a>
+<!-- Leaving a blank href makes angular use a preventDefault -->
+<a ng-href="" class="btn btn-danger">Delete Note</a>
